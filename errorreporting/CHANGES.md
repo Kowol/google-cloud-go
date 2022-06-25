@@ -1,5 +1,13 @@
 # Changes
 
+## [0.3.0](https://github.com/googleapis/google-cloud-go/compare/errorreporting/v0.2.0...errorreporting/v0.3.0) (2022-06-25)
+
+
+### Features
+
+* **errorreporting:** set versionClient to module version ([55f0d92](https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9))
+* **errorreporting:** start generating REST client for beta clients ([25b7775](https://github.com/googleapis/google-cloud-go/commit/25b77757c1e6f372e03bf99ab7461264bba48d26))
+
 ## [0.2.0](https://github.com/googleapis/google-cloud-go/compare/errorreporting/v0.1.0...errorreporting/v0.2.0) (2022-02-14)
 
 
