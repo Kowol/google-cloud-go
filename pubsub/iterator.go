@@ -323,7 +323,7 @@ func (it *messageIterator) sender() {
 			it.handleKeepAlives()
 			sendModAcks = (len(it.pendingModAcks) > 0)
 
-			nextTick = dl / 2
+			nextTick := dl / 2
 			it.kaTick = time.After(nextTick)
 
 		case <-it.nackTicker.C:
